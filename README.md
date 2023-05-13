@@ -13,7 +13,7 @@ The content of the folders is as follows:
 *	The applied EDA and feature selection techniques: univariate analysis (bar charts), correlation analysis, bivariate analysis (box plots), mutual information, Fisher score, variance threshold, analysis of variance (ANOVA), random forest importance, and LASSO Regularization. (The features selected using the variance threshold method with a threshold of 0.2 achieved the best performance in the classification method.)
 
 **XGBoost:**
-*	The Jupyter Notebook file for the XGBoost classification method to predict CEFR levels of words. We used this method to classify 14,000 new words that have not been classified before. The model has an accuracy of 59.27% and 70% precision for the A1 and C1 levels.
+*	The Jupyter Notebook file for the XGBoost classification method to predict CEFR levels of words. We used this method to classify 14,000 new words that have not been classified before. The model has an accuracy of 54.48%, using 10-fold cross-validation, and 70% precision for the A1 and C1 levels.
 *	The dataset of selected features to train and test the model.
 *	The csv file for unclassified words.
 
